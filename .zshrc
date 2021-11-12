@@ -4,7 +4,7 @@ export ZSH="/Users/lents/.oh-my-zsh"
 ZSH_THEME="robbyrussell"
 
 # Enable plugins.
-plugins=(git brew npm colored-man-pages zsh-syntax-highlighting)
+plugins=(git brew npm colored-man-pages)
 
 # Custom paths
 export PATH=$HOME/Library/Python/3.8/bin:/opt/homebrew/bin:/usr/local/bin:/usr/local/sbin:$HOME/bin:$PATH
