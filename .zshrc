@@ -7,7 +7,7 @@ ZSH_THEME="robbyrussell"
 plugins=(git brew npm colored-man-pages zsh-syntax-highlighting)
 
 # Custom paths
-export PATH=$HOME/Library/Python/3.9/bin:/opt/homebrew/bin:/usr/local/bin:/usr/local/sbin:$HOME/bin:$PATH
+export PATH=$HOME/Library/Python/3.8/bin:/opt/homebrew/bin:/usr/local/bin:/usr/local/sbin:$HOME/bin:$PATH
 
 # Include alias file (if present) containing aliases for ssh, etc.
 if [ -f ~/.aliases ]; then
