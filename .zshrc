@@ -1,4 +1,4 @@
-export ZSH="/Users/sam/.oh-my-zsh"
+export ZSH="/Users/lents/.oh-my-zsh"
 
 # Set theme.
 ZSH_THEME="robbyrussell"
