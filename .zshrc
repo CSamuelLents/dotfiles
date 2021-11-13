@@ -9,6 +9,9 @@ plugins=(git colored-man-pages)
 # Custom paths
 export PATH=$HOME/Library/Python/3.8/bin:$HOME/bin:/opt/homebrew/bin:/opt/homebrew/opt/openjdk/bin:/usr/local/bin:/usr/local/sbin:$PATH
 
+# Allows compilers to find OpenJDK
+export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"
+
 # Include alias file (if present) containing aliases for ssh, etc.
 if [ -f ~/.aliases ]; then
     source ~/.aliases
