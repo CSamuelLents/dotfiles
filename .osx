@@ -17,9 +17,6 @@
 #   4. Store new defaults in file: `defaults read > after`
 #   5. Diff the files: `diff before after`
 #
-# @see: http://secrets.blacktree.com/?showapp=com.apple.finder
-# @see: https://github.com/herrbischoff/awesome-macos-command-line
-#
 
 # Warn that some commands will not be run if the script is not run as root.
 if [[ $EUID -ne 0 ]]; then
